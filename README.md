@@ -85,6 +85,6 @@ This prompt is provided **for research and educational purposes only**, "as is",
 
 <div align="center">
 
-**JAILBREAK_BY_MACIOT4** — minimal, modular, responsible.
+jailbreak by maciot4
 
 </div>
