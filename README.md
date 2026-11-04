@@ -1,6 +1,6 @@
 <div align="center">
 
-# JAILBREAK FOR ALL AI
+# 🔓 JAILBREAK FOR ALL AI
 
 **A minimal, portable jailbreak prompt for research and development.**
 
