@@ -1,12 +1,8 @@
 <div align="center">
 
-# JAILBREAK — BY MACIOT4
+# JAILBREAK FOR ALL AI
 
-**A modular, lightweight jailbreak toolkit for research and development.**
-
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+**A minimal, portable jailbreak prompt for research and development.**
 
 </div>
 
@@ -14,82 +10,81 @@
 
 ## Overview
 
-**JAILBREAK_BY_MACIOT4** is a modular toolkit designed for research and development in constrained environments. It provides a minimal core with a plugin-based architecture, allowing you to compose functionality on demand — without bloat, hidden dependencies, or unnecessary complexity.
+**JAILBREAK_BY_MACIOT4** is a modular jailbreak prompt designed for research and development. It provides a small core with clear rules, allowing you to adapt behavior on demand — without bloat or unnecessary complexity.
 
-The project prioritizes clarity, predictability, and responsible use. Every component is documented, tested, and designed to be extended.
-
-> **Important:** This toolkit is **not guaranteed to work 100% of the time**. Results may vary depending on environment, configuration, and target behavior. For best results, follow the recommended usage below.
-
----
-
-## Table of Contents
-
-- [Features](#features)
-- [Important Notes](#important-notes)
-- [Architecture](#architecture)
-- [Installation](#installation)
-- [Quick Start](#quick-start)
-- [Usage](#usage)
-- [Modules](#modules)
-- [Configuration](#configuration)
-- [Development](#development)
-- [Testing](#testing)
-- [Contributing](#contributing)
-- [Security](#security)
-- [License](#license)
-- [Disclaimer](#disclaimer)
+> **Important:** This prompt is **not guaranteed to work 100% of the time**. Results may vary depending on the model, context, and input.
 
 ---
 
 ## Features
 
-- **Minimal core** — small footprint, no unnecessary dependencies.
-- **Modular by design** — plug in only the components you need.
-- **Extensible** — clean APIs for building custom modules.
-- **Predictable** — deterministic behavior and clear error handling.
-- **Documented** — every public interface is documented.
-- **Tested** — automated test suite covering core and modules.
+- **Minimal** — small footprint, no unnecessary instructions.
+- **Modular** — use only the sections you need.
+- **Portable** — works as plain text across models and platforms.
 - **Responsible** — built with research and educational use in mind.
 
 ---
 
 ## Important Notes
 
-Please read carefully before using this project.
+1. **Not 100% reliable.** May fail, produce partial results, or behave unexpectedly depending on the model and input. Treat it as a research tool, not a guaranteed solution.
 
-1. **Not 100% reliable.** This toolkit is **not guaranteed to work perfectly or consistently**. It may fail, produce partial results, or behave unexpectedly depending on the environment, configuration, and target. Treat it as a research tool, not a guaranteed solution.
+2. **For better results**, keep the prompt updated, be specific in your instructions, and validate outputs before relying on them.
 
-2. **For better results**, follow the recommended usage patterns described in the [Usage](#usage) section, keep modules up to date, and validate outputs before relying on them.
+3. **Optional search submission.** You may optionally submit results to a search engine for indexing — this is **not required** and entirely at your discretion.
 
-3. **Optional search submission.** You may optionally submit results to a search engine for indexing, but this is **not required** and is entirely at your discretion.
-
-4. **Plain text only.** When submitting, sharing, or distributing content generated or handled by this project, **send it as plain text**. Do **not** use `.md`, `.txt`, `.doc`, `.docx`, or any other document format unless explicitly required by the receiving party. Plain text ensures compatibility, transparency, and avoids metadata issues.
+4. **Plain text only.** When submitting, sharing, or distributing content, **send it as plain text**. Do **not** use `.md`, `.txt`, `.doc`, `.docx`, or any other document format unless explicitly required.
 
 ---
 
 ## Architecture
 
-The project follows a layered, plugin-based architecture, composed of four layers:
+The prompt is composed of four self-contained layers:
 
-- **Runtime** — minimal execution environment.
-- **Core API** — stable interfaces for modules and applications.
-- **Modules** — self-contained, composable units of functionality.
-- **Application** — your integration layer.
+- **Identity** — defines the assistant's operating profile.
+- **Core Principles** — governs tone, clarity, and responsibility.
+- **Operating Mode** — defines response structure and uncertainty handling.
+- **Boundaries** — defines explicit refusals and limits.
 
-Each layer communicates only through defined interfaces, ensuring isolation and testability.
+Each layer is self-contained and can be used, removed, or replaced independently.
 
 ---
 
-## Installation
+## Quick Start
 
-### Requirements
+1. Copy the full content of `JAILBREAK_BY_MACIOT4.MD`.
+2. Paste it as the **system prompt** (or first message) in your target model.
+3. Send your first instruction.
 
-- Python 3.10+ (or the runtime specified in `pyproject.toml`)
-- Git
+---
 
-### From source
+## Usage
 
-```bash
-git clone https://github.com/<your-username>/jailbreak.git
-cd jailbreak
-pip install -e .
+- Be specific and well-scoped.
+- Treat every output as a draft.
+- Iterate if results are partial or inconsistent.
+- Remember: the prompt is **not 100% reliable**.
+
+---
+
+## Disclaimer
+
+**We are not responsible for any illicit or illegal acts.**
+
+This prompt is provided **for research and educational purposes only**, "as is", without warranty of any kind. By using it, you agree that:
+
+- You are solely responsible for your actions and for compliance with all applicable laws.
+- The authors and maintainers assume **no liability** for any damages arising from the use or misuse of this prompt.
+- The prompt is **not guaranteed to work 100% of the time**.
+- Any use for illegal, unethical, or harmful purposes is **strictly prohibited**.
+- Content submitted or distributed must be sent as **plain text** unless explicitly required otherwise.
+
+**Use at your own risk. If you do not agree with these terms, do not use this prompt.**
+
+---
+
+<div align="center">
+
+**JAILBREAK_BY_MACIOT4** — minimal, modular, responsible.
+
+</div>
