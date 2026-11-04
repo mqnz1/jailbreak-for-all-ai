@@ -8,7 +8,7 @@
 
 ---
 
-## Overview
+## 📖 Overview
 
 **JAILBREAK_BY_MACIOT4** is a modular jailbreak prompt designed for research and development. It provides a small core with clear rules, allowing you to adapt behavior on demand — without bloat or unnecessary complexity.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Features
+## ✨ Features
 
 - **Minimal** — small footprint, no unnecessary instructions.
 - **Modular** — use only the sections you need.
@@ -25,7 +25,7 @@
 
 ---
 
-## Important Notes
+## 📌 Important Notes
 
 1. **Not 100% reliable.** May fail, produce partial results, or behave unexpectedly depending on the model and input. Treat it as a research tool, not a guaranteed solution.
 
@@ -37,7 +37,7 @@
 
 ---
 
-## Architecture
+## 🏗️ Architecture
 
 The prompt is composed of four self-contained layers:
 
@@ -50,7 +50,7 @@ Each layer is self-contained and can be used, removed, or replaced independently
 
 ---
 
-## Quick Start
+## 🚀 Quick Start
 
 1. Copy the full content of `JAILBREAK_BY_MACIOT4.MD`.
 2. Paste it as the **system prompt** (or first message) in your target model.
@@ -58,7 +58,7 @@ Each layer is self-contained and can be used, removed, or replaced independently
 
 ---
 
-## Usage
+## 🛠️ Usage
 
 - Be specific and well-scoped.
 - Treat every output as a draft.
@@ -67,7 +67,7 @@ Each layer is self-contained and can be used, removed, or replaced independently
 
 ---
 
-## Disclaimer
+## ⚖️ Disclaimer
 
 **We are not responsible for any illicit or illegal acts.**
 
@@ -85,6 +85,6 @@ This prompt is provided **for research and educational purposes only**, "as is",
 
 <div align="center">
 
-jailbreak by maciot4
+**JAILBREAK_BY_MACIOT4** — minimal, modular, responsible.
 
 </div>
